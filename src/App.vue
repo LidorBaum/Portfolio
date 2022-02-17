@@ -6,6 +6,7 @@
       <Hero />
 
       <Navbar />
+      <About />
       <div class="checker">
         <div id="top" class="top">TOP</div>
         <div class="spacer">Spacer</div>
@@ -18,11 +19,13 @@
 <script>
 import Hero from "@/components/Hero";
 import Navbar from "./components/Navbar.vue";
+import About from "./components/About.vue";
 
 export default {
   components: {
     Hero,
-    Navbar
+    Navbar,
+    About
 },
   methods: {
     greet() {

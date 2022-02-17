@@ -16,12 +16,18 @@
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-    background-color: hsla(0, 0%, 100%, 0.932);
+    background-color: hsla(0, 0%, 100%, 0.425);
     backdrop-filter: blur(10px);
     transition: 0.5s;
     text-align: center;
     gap: 30px;
     font-size: 1.5rem;
     height: 100px;
+    a{
+        transition: all 0.2s ease-in;
+        &:hover{
+            color: rgb(0, 162, 255);
 
+        }
+    }
 }
