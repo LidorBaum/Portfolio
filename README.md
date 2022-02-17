@@ -1,5 +1,8 @@
 # portfolio
 
+This portfolio is stiil WIP. please check back later for the live demo :)
+
+
 ## Project setup
 ```
 npm install
