@@ -26,6 +26,14 @@
     <div class="contact-icons-container flex justify-center">
     <a href="#landing"><i class="pi pi-linkedin" /></a>
     <a href="#landing"><i class="pi pi-github github" /></a>
+
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  components: {
+      },
+}
+</script>

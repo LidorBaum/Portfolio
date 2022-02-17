@@ -10,7 +10,7 @@ import 'primevue/resources/themes/saga-blue/theme.css'       //theme
 import 'primevue/resources/primevue.min.css'                 //core css
 import 'primeicons/primeicons.css'                           //icons
 import '../style/global.scss'
-
+import Particles from "particles.vue";
 
 // const app = createApp(App)
 // app.use(PrimeVue);
@@ -24,7 +24,7 @@ Vue.use(PrimeVue)
 Vue.use(ToastService);
 Vue.component('Toast', Toast)
 Vue.component('Button', Button)
-
+Vue.use(Particles);
 
 
 new Vue({

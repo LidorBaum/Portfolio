@@ -22,15 +22,24 @@
       </div>
       <a href="#navbar"><i class="pi pi-arrow-circle-down" /></a>
     </div>
+    <div>
+      HELOO
+      <Parti></Parti>
+    </div>
+    <!-- <ul class="vscoder">
+      <li><img src="../assets/vscode.svg" /></li>
+    </ul> -->
   </div>
 </template>
 
 <script>
 import { VueTyper } from "vue-typer";
+import Parti from "./Parti.vue";
 
 export default {
   components: {
     VueTyper,
+    Parti
   },
   name: "Hero",
   data() {

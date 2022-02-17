@@ -1,10 +1,16 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from '../App.vue'
+import Parti from '../components/Parti.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/parti',
+    name: 'Parti',
+    component: Parti
+  },
   {
     path: '/',
     name: 'App',

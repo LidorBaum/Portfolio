@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "particles.vue": "^2.41.2",
     "primeicons": "^5.0.0",
     "primevue": "^2.9.0",
     "vue": "^2.6.11",
