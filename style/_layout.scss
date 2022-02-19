@@ -1,28 +1,25 @@
-.app{
+.app {
     background: linear-gradient(to bottom, #66e9fa 0%, #d5a2d5 100%);
     // background-color: aqua;
     // height: 100vh;
 }
 
-.checker{
+.checker {
     display: flex;
     flex-direction: column;
 }
 
-.top{
+.top {
     display: block;
     background-color: blue;
     height: 2500px;
-
 }
-.spacer{
+.spacer {
     height: 2500px;
     display: block;
 }
-.bottom{
+.bottom {
     display: block;
     background-color: pink;
     height: 2500px;
-
 }
-

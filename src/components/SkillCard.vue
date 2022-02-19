@@ -1,8 +1,8 @@
 <template>
-      <div class="skill-card">
-          <p>{{skill.name}}</p>
-          <img :src="skill.image"/>
-      </div>
+    <div class="skill-card">
+        <p>{{ skill.name }}</p>
+        <img :src="skill.image" />
+    </div>
 </template>
 
 <script>

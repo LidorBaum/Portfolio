@@ -1,20 +1,22 @@
 <template>
-  <div class="navbar-container">
-    <div id='navbar' class="navbar">
-      <a href="#landing"><i class="pi pi-arrow-circle-up" style="font-size: 1.6em" /></a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+    <div class="navbar-container">
+        <div id="navbar" class="navbar">
+            <a href="#landing"
+                ><i class="pi pi-arrow-circle-up" style="font-size: 1.6em"
+            /></a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
 export default {
-  name: "Header",
-  data() {
-    return {};
-  },
+    name: 'Header',
+    data() {
+        return {};
+    },
 };
 </script>
