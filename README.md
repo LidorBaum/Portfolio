@@ -1,25 +1,4 @@
-# portfolio
-
-This portfolio is stiil WIP. please check back later for the live demo :)
-
-## Project setup
-
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Welcome to my Portfolio. Thank you for reaching by. <br />
+Live website at https://lidor-baum.web.app/ <br />
+![Image](https://res.cloudinary.com/echoshare/image/upload/v1645288930/portfolio/Screenshot_30_f7zqlk.png)
+This app built using Vue, and styled with SCSS.
