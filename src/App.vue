@@ -8,6 +8,7 @@
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
     <Particles
       id="tsparticles"
@@ -117,6 +118,7 @@ import Navbar from "./components/Navbar.vue";
 import About from "./components/About.vue";
 import Skills from "./components/Skills.vue";
 import Projects from "./components/Projects.vue";
+import Contact from "./components/Contact.vue";
 
 export default {
   components: {
@@ -124,7 +126,8 @@ export default {
     Navbar,
     About,
     Skills,
-    Projects
+    Projects,
+    Contact
 },
   methods: {
     greet() {

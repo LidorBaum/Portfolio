@@ -27,6 +27,7 @@
       <div class="contact-icons-container flex justify-center">
         <a href="https://www.linkedin.com/in/lidorbaum/"><i class="pi pi-linkedin" /></a>
         <a href="https://github.com/LidorBaum/"><i class="pi pi-github github" /></a>
+        <a href="LidorBaum-CV.pdf" target="_blank">CV</a>
       </div>
     </div>
   </div>
