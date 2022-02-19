@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm i @vue/cli
+      # - run: npm i @vue/cli
       - run: npm i
       - run: npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
