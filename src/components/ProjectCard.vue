@@ -6,7 +6,7 @@
               <a  target="_blank" :href="project.github"><Button class="p-button-sm p-button-raised">Repo <span> </span></Button></a>
               <a  target="_blank" :href="project.liveDemo"><Button class=" p-button-sm p-button-help p-button-raised">Live Demo <span><i class="pi pi-desktop"></i> </span></Button></a>
           </div>
-          <img :src="project.image"/>
+          <img @click="showImg" :src="project.image"/>
       </div>
 </template>
 
@@ -18,5 +18,10 @@ export default {
         Button
     },
     props: ['project'],
+    methods:{
+        showImg(){
+            this.$emit('showImg', {image: this.project.image, name: this.project.name})
+        }
+    }
 };
 </script>

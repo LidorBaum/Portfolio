@@ -3,8 +3,8 @@
     <div id='navbar' class="navbar">
       <a href="#landing"><i class="pi pi-arrow-circle-up" style="font-size: 1.6em" /></a>
       <a href="#about">About</a>
-      <a href="#bottom">Skills</a>
-      <a href="#bottom">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </div>
   </div>

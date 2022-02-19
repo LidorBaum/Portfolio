@@ -8,7 +8,15 @@
         transform: rotate(720deg);
     }
 }
+.dialogclass{
+}
 .projects-container {
+
+    .dialog-img{
+        width: 90%;
+        margin: 0 30px;
+        height: 90%;
+    }
     z-index: 10000;
     position: sticky;
     .projects {

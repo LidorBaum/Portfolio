@@ -1,5 +1,6 @@
 <template>
-  <div class="projects-container">
+  <div id="projects" class="projects-container">
+    <display-image-dialog v-if="showImageDialog.isShow"  @hide='onCloseDialog' :imageURL="showImageDialog.imageURL" :projName="showImageDialog.name" />
     <div class="projects">
       <h1>Projects</h1>
       <div class="project-set">
@@ -7,6 +8,7 @@
           v-for="project in projects"
           :key="project.name"
           :project="project"
+          @showImg="showImg"
         />
       </div>
     </div>
@@ -15,12 +17,33 @@
 
 <script>
 import ProjectCard from "./ProjectCard.vue";
+import DisplayImageDialog from "./DisplayImageDialog.vue";
+
 export default {
   components: {
     ProjectCard,
+    DisplayImageDialog
+  },
+  methods:{
+    onCloseDialog(){
+      console.log('dialog closed');
+      this.showImageDialog.imageURL = ''
+      this.showImageDialog.name = ''
+      this.showImageDialog.isShow = false
+    },
+    showImg(projObj){
+      this.showImageDialog.imageURL = projObj.image
+      this.showImageDialog.name = projObj.name
+      this.showImageDialog.isShow = true
+    }
   },
   data() {
     return {
+      showImageDialog:{
+        isShow: false,
+        imageURL: '',
+        name: ''
+      },
       projects: [
         {
           name: "Cubee 3D",
