@@ -23,11 +23,21 @@
     gap: 30px;
     font-size: 1.5rem;
     height: 100px;
-    a{
+    a {
         transition: all 0.2s ease-in;
-        &:hover{
+        &:hover {
             color: rgb(0, 162, 255);
+        }
+    }
+}
 
+@media only screen and (max-width: 750px) {
+    .navbar-container {
+        .navbar {
+            flex-wrap: wrap;
+            a {
+                font-size: 0.7rem !important;
+            }
         }
     }
 }
