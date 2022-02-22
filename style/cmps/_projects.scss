@@ -39,7 +39,7 @@
             display: flex;
             gap: 20px;
             justify-content: space-around;
-            width: 70%;
+            width: 90%;
             margin: 0 auto;
             flex-wrap: wrap;
             .project-card {
@@ -59,10 +59,14 @@
                 .project-links {
                     display: flex;
                     gap: 10px;
+                    width: 90%;
+                    margin: 0 auto;
+                    justify-content: space-between;
                     a {
                         button {
+                            font-size: 0.8rem;
                             // font-size: 0.8rem;
-                            width: 180px;
+                            width: 170px;
                             height: 50px;
                             justify-content: space-around;
                         }

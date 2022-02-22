@@ -6,7 +6,9 @@
 html {
     font-family: sans-serif;
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch
 }
+
 
 body {
     margin: 0;

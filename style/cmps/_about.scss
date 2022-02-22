@@ -26,14 +26,15 @@
         }
         .cv {
             width: 230px;
-            height: 80px;
-            margin: 0 auto;
+            // height: 80px;
+            margin: 20px auto;
+
             button {
                 height: 50px;
             }
         }
         .contact-icons-container {
-            margin-top: 35px;
+            // margin-top: 35px;
             gap: 20px;
             * {
                 font-size: 3rem;

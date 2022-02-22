@@ -25,6 +25,11 @@
                 For now, I am looking for a junior position as a full-stack
                 developer. Think you can help me? Let's chat!
             </p>
+            <a class="cv" href="LidorBaum-CV.pdf" target="_blank"
+                ><Button class="p-button-raised"
+                    >My Resume &nbsp;&nbsp;
+                    <i class="pi pi-book book" /></Button
+            ></a>
             <div class="contact-icons-container flex justify-center">
                 <a href="https://www.linkedin.com/in/lidorbaum/"
                     ><i class="pi pi-linkedin"
@@ -33,11 +38,6 @@
                     ><i class="pi pi-github github"
                 /></a>
             </div>
-            <a class="cv" href="LidorBaum-CV.pdf" target="_blank"
-                ><Button class="p-button-raised"
-                    >My Resume &nbsp;&nbsp;
-                    <i class="pi pi-book book" /></Button
-            ></a>
         </div>
     </div>
 </template>
