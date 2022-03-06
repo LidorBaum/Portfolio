@@ -8,6 +8,7 @@
         />
         <div class="projects">
             <h1>Projects</h1>
+            <p class="heroku-p">Please note: it can take up to 30 seconds to boot up the Heroku live demo server</p>
             <div class="project-set">
                 <project-card
                     v-for="project in projects"
