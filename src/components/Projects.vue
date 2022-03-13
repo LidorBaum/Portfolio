@@ -52,8 +52,15 @@ export default {
             },
             projects: [
                 {
+                    name: 'Lostie',
+                    desc: 'Track & Scan Lost Pets with NFC Tags',
+                    image: 'https://res.cloudinary.com/echoshare/image/upload/v1647165506/Screenshot_42_bhayug.png',
+                    github: 'https://github.com/LidorBaum/Lostie',
+                    liveDemo: 'https://lostie.herokuapp.com/',
+                },
+                {
                     name: 'Cubee 3D',
-                    desc: 'Order Manager',
+                    desc: 'Order & Inventory Manager',
                     image: 'https://res.cloudinary.com/echoshare/image/upload/v1645202718/portfolio/Screenshot_25_xywknn.png',
                     github: 'https://github.com/LidorBaum/Cubee3D-OrderManager',
                     liveDemo: 'https://cubee3dordermanagement.herokuapp.com/',
