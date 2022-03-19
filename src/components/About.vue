@@ -25,7 +25,7 @@
                 For now, I am looking for a junior position as a full-stack
                 developer. Think you can help me? Let's chat!
             </p>
-            <a class="cv" href="LidorBaum-CV.pdf" target="_blank"
+            <a class="cv" href="LidorBaum-CV1.pdf" target="_blank"
                 ><Button class="p-button-raised"
                     >My Resume &nbsp;&nbsp;
                     <i class="pi pi-book book" /></Button
