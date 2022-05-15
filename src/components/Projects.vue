@@ -59,6 +59,11 @@ export default {
                     liveDemo: 'https://lostie.herokuapp.com/',
                 },
                 {
+                    name: 'Cubee-Club',
+                    desc: '3D products E-commerce shop - developed for Cubee3D - Live website soon',
+                    image: 'https://res.cloudinary.com/echoshare/image/upload/v1652604554/portfolio/Screenshot_44_kaz7cy.png',
+                },
+                {
                     name: 'Cubee 3D',
                     desc: 'Order & Inventory Manager',
                     image: 'https://res.cloudinary.com/echoshare/image/upload/v1645202718/portfolio/Screenshot_25_xywknn.png',
