@@ -2,8 +2,8 @@
     <div class="project-card">
         <p class="project-name">{{ project.name }}</p>
         <p class="project-desc" v-if="project.desc">{{ project.desc }}</p>
-        <div v-if="project.github" class="project-links">
-            <a target="_blank" :href="project.github"
+        <div class="project-links">
+            <a v-if="project.github" target="_blank" :href="project.github"
                 ><Button class="p-button-sm p-button-raised"
                     >Repo <span> </span></Button
                 ></a

@@ -60,8 +60,9 @@ export default {
                 },
                 {
                     name: 'Cubee-Club',
-                    desc: '3D products E-commerce shop - developed for Cubee3D - Live website soon',
+                    desc: "Cubee3D's E-commerce shop - Live site",
                     image: 'https://res.cloudinary.com/echoshare/image/upload/v1652604554/portfolio/Screenshot_44_kaz7cy.png',
+                    liveDemo: 'https://club.cubee3d.com'
                 },
                 {
                     name: 'Cubee 3D',
